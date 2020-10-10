@@ -3,17 +3,13 @@
   --primary-text-color: #212121;
   --accent-color: #2196f3;
   --hero-color: #2f303a;
+  --primary-white-color: #fff;
 }
 body {
-  body {
-    font-family: Roboto, sans-serif;
-    text-decoration: none;
-    background-color: #fff;
-    color: var(--primary-text-color);
-  }
-}
-.list {
-  list-style: none;
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+  background-color: #fff;
+  color: var(--primary-text-color);
 }
 .link {
   text-decoration: none;
@@ -27,54 +23,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-/* .hero */
-.hero {
-  background-color: var(--hero-color);
-}
-.hero .title {
-  font-family: Roboto;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #fff;
-}
-.hero .button {
-  font-family: Roboto;
-  color: white;
-  background-color: var(--accent-color);
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-decoration: none;
-}
-
-/*  features*/
-.features .feat-text {
-  font-family: Roboto;
-  color: var(--secondary-text-color);
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-.features h4 {
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
 
 /* header */
-.site-nav {
-  background-color: #ffffff;
+.site-nav,
+.site-nav-list {
+  background-color: var(--primary-white-color);
+  list-style: none;
 }
 .site-nav .link {
   color: var(--primary-text-color);
@@ -88,6 +42,9 @@ body {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
+}
+.cont-nav {
+  list-style: none;
 }
 .cont-nav .cont-nav-link {
   font-family: Roboto;
@@ -116,9 +73,65 @@ body {
 .logo span {
   color: #2196f3;
 }
+
+/* .hero */
+.hero {
+  background-color: var(--hero-color);
+}
+.hero .title {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.hero .button {
+  font-family: Roboto;
+  color: white;
+  background-color: var(--accent-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+
+/*  features*/
+.feat-list {
+  list-style: none;
+}
+.features .feat-text {
+  font-family: Roboto;
+  color: var(--secondary-text-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.features h4 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/* examples */
+.examples {
+  list-style: none;
+}
+
 /* team */
 .team {
   background-color: #f5f4fa;
+}
+.team-list {
+  list-style: none;
 }
 .team .name {
   font-family: Roboto;
@@ -129,7 +142,6 @@ body {
   color: var(--secondary-text-color);
 }
 .team h3 {
-  color: var(--primary-text-color);
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
@@ -139,6 +151,9 @@ body {
 /* footer */
 .footer {
   background-color: #2f303a;
+}
+.foot-list {
+  list-style: none;
 }
 .footer .link {
   font-family: Roboto;
@@ -167,6 +182,9 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+.p-list {
+  list-style: none;
+}
 .p-text {
   font-family: Roboto;
   font-size: 16px;
@@ -174,6 +192,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   text-decoration: none;
+}
+.p-buttons {
+  list-style: none;
 }
 .p-buttons .button {
   background-color: #f5f4fa;

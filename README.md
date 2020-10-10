@@ -1,1 +1,1 @@
-# goit-markup-hw-02
+https://sbeznosiuk.github.io/goit-markup-hw-02/.

@@ -18,6 +18,15 @@ body {
 .link {
   text-decoration: none;
 }
+.h2 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
 /* .hero */
 .hero {
   background-color: var(--hero-color);
@@ -45,39 +54,6 @@ body {
   text-decoration: none;
 }
 
-/* .section */
-.section {
-  color: var(--secondary-text-color);
-}
-.section h4,
-.section h3,
-.section h2 {
-  color: var(--primary-text-color);
-}
-.section h4 {
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.section h3 {
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-}
-.section h2 {
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
 /*  features*/
 .features .feat-text {
   font-family: Roboto;
@@ -86,6 +62,14 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+.features h4 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /* header */
@@ -141,6 +125,15 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.team h3 {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 }
 /* footer */
